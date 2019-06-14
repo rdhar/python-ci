@@ -1,1 +1,1 @@
-# python-ci
+# Python CI with Jenkins
