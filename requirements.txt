@@ -1,0 +1,9 @@
+aenum==2.1.2
+backports-abc==0.5
+certifi==2018.10.15
+decorator==4.3.0
+futures==3.2.0
+lxml==4.2.5
+networkx==1.11
+singledispatch==3.4.0.3
+six==1.11.0
