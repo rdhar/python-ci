@@ -11,8 +11,9 @@ pipeline {
     stage('Test') {
       steps {
         echo 'START: Test'
-        bat 'python test_primes.py'
-        echo 'END: Build'
+        bat 'pytest'
+        bat 'pytest --junitxml=results.xml'
+        echo 'END: Test'
       }
     }
 

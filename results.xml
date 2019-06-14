@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="pytest" skipped="0" tests="7" time="0.209">
+   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="7" name="test_is_five_prime" time="0.003" />
+   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="11" name="test_is_four_non_prime" time="0.002" />
+   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="15" name="test_is_zero_not_prime" time="0.003" />
+   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="19" name="test_negative_number" time="0.001" />
+   <testcase classname="test_random-module.TestSequenceFunctions" file="test_random-module.py" line="14" name="testchoice" time="0.002" />
+   <testcase classname="test_random-module.TestSequenceFunctions" file="test_random-module.py" line="18" name="testsample" time="0.002" />
+   <testcase classname="test_random-module.TestSequenceFunctions" file="test_random-module.py" line="8" name="testshuffle" time="0.006" />
+</testsuite>

@@ -11,7 +11,7 @@ python test_primes.py
 ### Generate J-Unit XML report of test results
 
 ```sh
-pytest --junitxml=D:\python-ci\results.xml
+pytest --junitxml=results.xml
 ```
 
 ### HTTP Post URL from Jenkin's Git Plugin
