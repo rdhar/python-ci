@@ -4,9 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'START: Build'
-        sh 'python --version'
-        echo 'END: Build'
+        echo 'Nothing to Build'
       }
     }
 
