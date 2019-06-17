@@ -1,5 +1,5 @@
-import random
 import unittest
+import random
 
 class TestSequenceFunctions(unittest.TestCase):
 
@@ -21,8 +21,9 @@ class TestSequenceFunctions(unittest.TestCase):
         for element in random.sample(self.seq, 5):
             self.assertTrue(element in self.seq)
 
-# if __name__ == '__main__':
-#     unittest.main()
+# Alternative, verbose test runner
+# suite = unittest.TestLoader().loadTestsFromTestCase(TestSequenceFunctions)
+# unittest.TextTestRunner(verbosity=2).run(suite)
 
-suite = unittest.TestLoader().loadTestsFromTestCase(TestSequenceFunctions)
-unittest.TextTestRunner(verbosity=2).run(suite)
+if __name__ == '__main__':
+    unittest.main()

@@ -11,8 +11,8 @@ pipeline {
     stage('Test') {
       steps {
         echo 'START: Test'
-        bat 'pytest'
-        bat 'pytest --junitxml=results.xml'
+        bat 'pytest -v'
+        // bat 'pytest --junitxml=results.xml'
         echo 'END: Test'
       }
     }

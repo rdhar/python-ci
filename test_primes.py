@@ -1,8 +1,8 @@
 import unittest
 from primes import is_prime
 
-
 class PrimesTestCase(unittest.TestCase):
+
     '''Tests for `primes.py`.'''
 
     def test_is_five_prime(self):
