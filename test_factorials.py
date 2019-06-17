@@ -1,3 +1,7 @@
+'''
+Testing generation of factorials.
+'''
+
 import unittest
 from factorials import fact, div
 

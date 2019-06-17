@@ -1,3 +1,7 @@
+'''
+Testing tic-tac-toe game.
+'''
+
 import random
 import sys
 import time

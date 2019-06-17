@@ -1,3 +1,8 @@
+'''
+Generate prime numbers.
+'''
+
+
 def is_prime(number):
     '''
     Return True if *number* is prime.
