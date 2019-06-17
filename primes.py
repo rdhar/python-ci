@@ -1,7 +1,7 @@
 '''Return True if *number* is prime.'''
 def is_prime(number):
 
-    if number <= 1:
+    if number <= -1:
         return False
 
     for element in range(2, number):
