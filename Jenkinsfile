@@ -11,7 +11,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'START: Test'
-        bat 'pytest --junitxml=results.xml'
+        bat 'pytest --pep8 --junitxml=results.xml'
         // bat 'pytest -v'
         // bat 'python test_primes.py &&  test_random-module.py'
         echo 'END: Test'

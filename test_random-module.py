@@ -1,6 +1,7 @@
 import unittest
 import random
 
+
 class TestSequenceFunctions(unittest.TestCase):
 
     def setUp(self):
