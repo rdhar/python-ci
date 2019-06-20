@@ -1,10 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 '''
 Testing tic-tac-toe game.
 '''
 
 import random
-import sys
-import time
 PLAYING_GRID = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 
@@ -17,7 +18,8 @@ def num_to_text(num):
     # then it'll print out a blank/empty space
 
     if num == 0:
-        return ' '
+        char_space = ' '
+        return char_space
 
     # If the array is labelled 1,
     # then it'll print out a nought 'O'
