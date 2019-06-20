@@ -9,6 +9,9 @@ playingGrid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 
 def numToText(num):
+    '''
+    Convert number input to equivalent characters.
+    '''
 
     # If the array is labelled 0,
     # then it'll print out a blank/empty space
@@ -30,6 +33,9 @@ def numToText(num):
 
 
 def printGrid():
+    '''
+    Render the tic-tac-toe grid.
+    '''
     print '┌ ─ ┬ ─ ┬ ─ ┐'
     print '│ ' + numToText(playingGrid[0][0]) + ' │ ' \
         + numToText(playingGrid[1][0]) + ' │ ' \
@@ -46,8 +52,10 @@ def printGrid():
 
 
 def checkVictory():
-    # Looks at each box in the grid and checks 3 boxes in each specified
-    # vector
+    '''
+    Looks at each box in the grid and checks 3 boxes in each specified
+    vector.
+    '''
     for i in range(0, 3):
         for j in range(0, 3):
 
@@ -71,7 +79,7 @@ def checkVictory():
                         # endgame will run)
                         if playingGrid[boxToCheck[0]][boxToCheck[1]] \
                                 != charToCheckFor:
-                                break
+                            break
 
                         # If last box in loop and still have not broken, then
                         # three in a row has been formed. print character
@@ -84,6 +92,9 @@ def checkVictory():
 
 
 def chooseComputerMove():
+    '''
+    Let computer choose a valid move to play.
+    '''
 
     emptyBoxes = []
     for i in range(0, 3):
@@ -96,7 +107,7 @@ def chooseComputerMove():
     return emptyBoxes[random.randint(1, len(emptyBoxes) - 1)]
 
 
-print 'Welcome to tic-tac-toe! Input co-ords in the form x y.\nEg, 1 1 or 2 1.'
+print 'Welcome to tic-tac-toe! Input coords in the form x y.\nEg, 1 1 or 2 1.'
 
 # players move.
 
@@ -118,7 +129,7 @@ while 1:
                     printGrid()
                     break
 
-            print 'Invalid input. Try again with proper co-ords'
+            print 'Invalid input; try again with proper coords input format.'
 
     victoryResult = checkVictory()
     if victoryResult == 'X':
