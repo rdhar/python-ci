@@ -5,10 +5,10 @@ Testing tic-tac-toe game.
 import random
 import sys
 import time
-playingGrid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+playing_grid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 
-def numToText(num):
+def num_to_text(num):
     '''
     Convert number input to equivalent characters.
     '''
@@ -32,26 +32,26 @@ def numToText(num):
         return 'X'
 
 
-def printGrid():
+def print_grid():
     '''
     Render the tic-tac-toe grid.
     '''
     print '┌ ─ ┬ ─ ┬ ─ ┐'
-    print '│ ' + numToText(playingGrid[0][0]) + ' │ ' \
-        + numToText(playingGrid[1][0]) + ' │ ' \
-        + numToText(playingGrid[2][0]) + ' │'
+    print '│ ' + num_to_text(playing_grid[0][0]) + ' │ ' \
+        + num_to_text(playing_grid[1][0]) + ' │ ' \
+        + num_to_text(playing_grid[2][0]) + ' │'
     print '├ ─ ┼ ─ ┼ ─ ┤'
-    print '│ ' + numToText(playingGrid[0][1]) + ' │ ' \
-        + numToText(playingGrid[1][1]) + ' │ ' \
-        + numToText(playingGrid[2][1]) + ' │'
+    print '│ ' + num_to_text(playing_grid[0][1]) + ' │ ' \
+        + num_to_text(playing_grid[1][1]) + ' │ ' \
+        + num_to_text(playing_grid[2][1]) + ' │'
     print '├ ─ ┼ ─ ┼ ─ ┤'
-    print '│ ' + numToText(playingGrid[0][2]) + ' │ ' \
-        + numToText(playingGrid[1][2]) + ' │ ' \
-        + numToText(playingGrid[2][2]) + ' │'
+    print '│ ' + num_to_text(playing_grid[0][2]) + ' │ ' \
+        + num_to_text(playing_grid[1][2]) + ' │ ' \
+        + num_to_text(playing_grid[2][2]) + ' │'
     print '└ ─ ┴ ─ ┴ ─ ┘'
 
 
-def checkVictory():
+def check_victory():
     '''
     Looks at each box in the grid and checks 3 boxes in each specified
     vector.
@@ -59,7 +59,7 @@ def checkVictory():
     for i in range(0, 3):
         for j in range(0, 3):
 
-            if playingGrid[i][j] == 0:
+            if playing_grid[i][j] == 0:
                 continue
 
             # The 4 ways that the program will check for the 8 possibilities
@@ -67,44 +67,44 @@ def checkVictory():
             for vector in [[1, 0], [1, 1], [0, 1], [-1, 1]]:
 
                 try:
-                    boxToCheck = [i, j]
-                    charToCheckFor = playingGrid[i][j]
+                    box_to_check = [i, j]
+                    char_to_check_for = playing_grid[i][j]
                     for x in range(1, 3):
 
-                        boxToCheck[0] += vector[0]
-                        boxToCheck[1] += vector[1]
+                        box_to_check[0] += vector[0]
+                        box_to_check[1] += vector[1]
 
                         # Checks for the same symbols in the vectors that form
                         # a complete line (so that if a line is complete, the
                         # endgame will run)
-                        if playingGrid[boxToCheck[0]][boxToCheck[1]] \
-                                != charToCheckFor:
+                        if playing_grid[box_to_check[0]][box_to_check[1]] \
+                                != char_to_check_for:
                             break
 
                         # If last box in loop and still have not broken, then
                         # three in a row has been formed. print character
 
                         if x == 2:
-                            return numToText(playingGrid[i][j])
+                            return num_to_text(playing_grid[i][j])
                 except:
                     continue
     return ' '
 
 
-def chooseComputerMove():
+def choose_computer_move():
     '''
     Let computer choose a valid move to play.
     '''
 
-    emptyBoxes = []
+    empty_boxes = []
     for i in range(0, 3):
         for j in range(0, 3):
-            if playingGrid[i][j] == 0:
+            if playing_grid[i][j] == 0:
                 # Creates a list of possibilities, picks at random from them.
                 # Saves time on coding each and every single possibility, at
                 # the cost of "smart" AI
-                emptyBoxes += [[i, j]]
-    return emptyBoxes[random.randint(1, len(emptyBoxes) - 1)]
+                empty_boxes += [[i, j]]
+    return empty_boxes[random.randint(1, len(empty_boxes) - 1)]
 
 
 print 'Welcome to tic-tac-toe! Input coords in the form x y.\nEg, 1 1 or 2 1.'
@@ -123,28 +123,28 @@ while 1:
             # Check for correct input
             if 1 <= int(move[0]) <= 3 and 1 <= int(move[2]) <= 3:
                 # Check that box is empty
-                if playingGrid[int(move[0]) - 1][int(move[2]) - 1] == 0:
+                if playing_grid[int(move[0]) - 1][int(move[2]) - 1] == 0:
                     # Put a cross in box
-                    playingGrid[int(move[0]) - 1][int(move[2]) - 1] = 2
-                    printGrid()
+                    playing_grid[int(move[0]) - 1][int(move[2]) - 1] = 2
+                    print_grid()
                     break
 
             print 'Invalid input; try again with proper coords input format.'
 
-    victoryResult = checkVictory()
-    if victoryResult == 'X':
+    victory_result = check_victory()
+    if victory_result == 'X':
         print 'You win! :)'
         break  # Checks if the player has won
 
-    computerMove = chooseComputerMove()
-    playingGrid[computerMove[0]][computerMove[1]] = 1
+    computer_move = choose_computer_move()
+    playing_grid[computer_move[0]][computer_move[1]] = 1
     print '''
 
 Computer\'s turn...'''
-    printGrid()  # Makes the computer move
+    print_grid()  # Makes the computer move
 
-    victoryResult = checkVictory()
-    if victoryResult == 'O':
+    victory_result = check_victory()
+    if victory_result == 'O':
         print 'You lose :('
         break  # Check if the computer has won
 time.sleep(5)
