@@ -1,10 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" name="pytest" skipped="0" tests="7" time="0.209">
-   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="7" name="test_is_five_prime" time="0.003" />
-   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="11" name="test_is_four_non_prime" time="0.002" />
-   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="15" name="test_is_zero_not_prime" time="0.003" />
-   <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="19" name="test_negative_number" time="0.001" />
-   <testcase classname="test_random-module.TestSequenceFunctions" file="test_random-module.py" line="14" name="testchoice" time="0.002" />
-   <testcase classname="test_random-module.TestSequenceFunctions" file="test_random-module.py" line="18" name="testsample" time="0.002" />
-   <testcase classname="test_random-module.TestSequenceFunctions" file="test_random-module.py" line="8" name="testshuffle" time="0.006" />
-</testsuite>
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="2" name="pytest" skipped="0" tests="14" time="0.260"><testcase classname="" file="factorials.py" line="-1" name="factorials" time="0.011"></testcase><testcase classname="" file="primes.py" line="-1" name="primes" time="0.008"></testcase><testcase classname="" file="test_factorials.py" line="-1" name="test_factorials" time="0.010"></testcase><testcase classname="test_factorials.TestFactorial" file="test_factorials.py" line="23" name="test_error" time="0.003"></testcase><testcase classname="test_factorials.TestFactorial" file="test_factorials.py" line="13" name="test_fact" time="0.003"></testcase><testcase classname="" file="test_primes.py" line="-1" name="test_primes" time="0.011"></testcase><testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="12" name="test_is_five_prime" time="0.002"></testcase><testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="17" name="test_is_four_non_prime" time="0.002"></testcase><testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="22" name="test_is_zero_not_prime" time="0.003"></testcase><testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="27" name="test_negative_number" time="0.004"></testcase><testcase classname="" file="test_random_module.py" line="-1" name="test_random_module" time="0.012"></testcase><testcase classname="test_random_module.TestSequenceFunctions" file="test_random_module.py" line="35" name="test_sample" time="0.004"><failure message="AttributeError: &apos;TestSequenceFunctions&apos; object has no attribute &apos;seq&apos;">self = &lt;test_random_module.TestSequenceFunctions testMethod=test_sample&gt;
+
+    def test_sample(self):
+        &apos;&apos;&apos;
+        Testing sample.
+        &apos;&apos;&apos;
+&gt;       self.assertRaises(ValueError, random.sample, self.seq, 20)
+E       AttributeError: &apos;TestSequenceFunctions&apos; object has no attribute &apos;seq&apos;
+
+test_random_module.py:40: AttributeError</failure></testcase><testcase classname="test_random_module.TestSequenceFunctions" file="test_random_module.py" line="19" name="test_shuffle" time="0.002"><failure message="AttributeError: &apos;TestSequenceFunctions&apos; object has no attribute &apos;seq&apos;">self = &lt;test_random_module.TestSequenceFunctions testMethod=test_shuffle&gt;
+
+    def test_shuffle(self):
+        &apos;&apos;&apos;
+        Testing shuffle.
+        &apos;&apos;&apos;
+        # make sure the shuffled sequence does not lose any elements
+&gt;       random.shuffle(self.seq)
+E       AttributeError: &apos;TestSequenceFunctions&apos; object has no attribute &apos;seq&apos;
+
+test_random_module.py:25: AttributeError</failure></testcase><testcase classname="" file="tictactoe.py" line="-1" name="tictactoe" time="0.032"></testcase></testsuite>
