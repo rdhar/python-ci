@@ -7,6 +7,9 @@ import random
 
 
 class TestSequenceFunctions(unittest.TestCase):
+    '''
+    Is this a PyLint warning for "missing-docstring" convention
+    '''
 
     def set_up(self):
         '''
@@ -41,6 +44,7 @@ class TestSequenceFunctions(unittest.TestCase):
 # Alternative, verbose test runner
 # suite = unittest.TestLoader().loadTestsFromTestCase(TestSequenceFunctions)
 # unittest.TextTestRunner(verbosity=2).run(suite)
+
 
 if __name__ == '__main__':
     unittest.main()
