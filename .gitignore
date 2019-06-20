@@ -54,7 +54,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+# *.log Customised for Jenkins input
 local_settings.py
 db.sqlite3
 
