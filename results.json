@@ -1,0 +1,916 @@
+{
+    "environment": {
+        "Python": "2.7.5", 
+        "Platform": "Windows-7-6.1.7601-SP1", 
+        "Packages": {
+            "py": "1.5.3", 
+            "pytest": "4.6.3", 
+            "pluggy": "0.12.0"
+        }, 
+        "Plugins": {
+            "pep8": "1.0.6", 
+            "json-report": "1.0.4", 
+            "metadata": "1.8.0", 
+            "mock": "1.9.0", 
+            "cov": "2.7.1"
+        }
+    }, 
+    "tests": [
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_factorials.py::TestFactorial::test_error", 
+            "call": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "lineno": 23, 
+            "keywords": [
+                "TestFactorial", 
+                "test_factorials.py", 
+                "python-ci", 
+                "test_error"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_factorials.py::TestFactorial::test_fact", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 13, 
+            "keywords": [
+                "test_fact", 
+                "TestFactorial", 
+                "python-ci", 
+                "test_factorials.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_primes.py::PrimesTestCase::test_is_five_prime", 
+            "call": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "lineno": 12, 
+            "keywords": [
+                "test_is_five_prime", 
+                "PrimesTestCase", 
+                "test_primes.py", 
+                "python-ci"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_primes.py::PrimesTestCase::test_is_four_non_prime", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 17, 
+            "keywords": [
+                "test_is_four_non_prime", 
+                "PrimesTestCase", 
+                "test_primes.py", 
+                "python-ci"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_primes.py::PrimesTestCase::test_is_zero_not_prime", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 22, 
+            "keywords": [
+                "test_is_zero_not_prime", 
+                "PrimesTestCase", 
+                "test_primes.py", 
+                "python-ci"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_primes.py::PrimesTestCase::test_negative_number", 
+            "call": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "lineno": 27, 
+            "keywords": [
+                "PrimesTestCase", 
+                "python-ci", 
+                "test_primes.py", 
+                "test_negative_number"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.002000093460083008, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestConsoleUI::test_game_over", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed", 
+                "stdout": "Game over\n"
+            }, 
+            "lineno": 8, 
+            "keywords": [
+                "test_game_over", 
+                "python-ci", 
+                "()", 
+                "TestConsoleUI", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestConsoleUI::test_error_message", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed", 
+                "stdout": "\u001b[31mERROR: There is an error\u001b[0m\n"
+            }, 
+            "lineno": 14, 
+            "keywords": [
+                "python-ci", 
+                "()", 
+                "TestConsoleUI", 
+                "test_error_message", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestConsoleUI::test_render_position_when_position_is_empty", 
+            "call": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "lineno": 20, 
+            "keywords": [
+                "test_render_position_when_position_is_empty", 
+                "()", 
+                "TestConsoleUI", 
+                "python-ci", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestConsoleUI::test_render_position_returns_symbol_when_position_is_not_empty", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 27, 
+            "keywords": [
+                "test_render_position_returns_symbol_when_position_is_not_empty", 
+                "()", 
+                "TestConsoleUI", 
+                "python-ci", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_set_position", 
+            "call": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "lineno": 38, 
+            "keywords": [
+                "test_set_position", 
+                "python-ci", 
+                "()", 
+                "TestBoard", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_get_position", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 44, 
+            "keywords": [
+                "python-ci", 
+                "()", 
+                "test_get_position", 
+                "TestBoard", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_position_is_empty", 
+            "call": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "lineno": 51, 
+            "keywords": [
+                "TestBoard", 
+                "python-ci", 
+                "()", 
+                "test_tictactoe.py", 
+                "test_position_is_empty"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_position_is_not_empty", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 56, 
+            "keywords": [
+                "test_position_is_not_empty", 
+                "python-ci", 
+                "()", 
+                "test_tictactoe.py", 
+                "TestBoard"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_three_in_a_row", 
+            "call": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "lineno": 63, 
+            "keywords": [
+                "python-ci", 
+                "test_three_in_a_row", 
+                "TestBoard", 
+                "()", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_is_not_three_in_a_row", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 72, 
+            "keywords": [
+                "test_is_not_three_in_a_row", 
+                "python-ci", 
+                "()", 
+                "TestBoard", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_game_is_over", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 81, 
+            "keywords": [
+                "test_game_is_over", 
+                "python-ci", 
+                "()", 
+                "TestBoard", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_game_is_not_over", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 90, 
+            "keywords": [
+                "python-ci", 
+                "()", 
+                "TestBoard", 
+                "test_game_is_not_over", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_is_full", 
+            "call": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "lineno": 99, 
+            "keywords": [
+                "TestBoard", 
+                "python-ci", 
+                "()", 
+                "test_tictactoe.py", 
+                "test_is_full"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestBoard::test_is_not_full", 
+            "call": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "lineno": 114, 
+            "keywords": [
+                "test_is_not_full", 
+                "python-ci", 
+                "()", 
+                "test_tictactoe.py", 
+                "TestBoard"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestComputerPlayer::test_choose_symbol_other_player_picks_x", 
+            "call": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "lineno": 122, 
+            "keywords": [
+                "test_choose_symbol_other_player_picks_x", 
+                "TestComputerPlayer", 
+                "()", 
+                "python-ci", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestComputerPlayer::test_choose_symbol_other_player_picks_o", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 129, 
+            "keywords": [
+                "TestComputerPlayer", 
+                "()", 
+                "python-ci", 
+                "test_choose_symbol_other_player_picks_o", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestComputerPlayer::test_get_symbol", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 136, 
+            "keywords": [
+                "python-ci", 
+                "TestComputerPlayer", 
+                "()", 
+                "test_tictactoe.py", 
+                "test_get_symbol"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestComputerPlayer::test_get_other_player_is_none", 
+            "call": {
+                "duration": 0.0010001659393310547, 
+                "outcome": "passed"
+            }, 
+            "lineno": 143, 
+            "keywords": [
+                "python-ci", 
+                "TestComputerPlayer", 
+                "()", 
+                "test_tictactoe.py", 
+                "test_get_other_player_is_none"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestComputerPlayer::test_get_other_player_when_position_not_empty", 
+            "call": {
+                "duration": 0.0009999275207519531, 
+                "outcome": "passed"
+            }, 
+            "lineno": 148, 
+            "keywords": [
+                "test_get_other_player_when_position_not_empty", 
+                "TestComputerPlayer", 
+                "()", 
+                "python-ci", 
+                "test_tictactoe.py"
+            ], 
+            "outcome": "passed"
+        }, 
+        {
+            "teardown": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "setup": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "nodeid": "test_tictactoe.py::TestHumanPlayer::test_get_symbol", 
+            "call": {
+                "duration": 0.0, 
+                "outcome": "passed"
+            }, 
+            "lineno": 161, 
+            "keywords": [
+                "python-ci", 
+                "()", 
+                "test_get_symbol", 
+                "test_tictactoe.py", 
+                "TestHumanPlayer"
+            ], 
+            "outcome": "passed"
+        }
+    ], 
+    "collectors": [
+        {
+            "outcome": "passed", 
+            "nodeid": "", 
+            "result": [
+                {
+                    "type": "Module", 
+                    "nodeid": "test_factorials.py"
+                }, 
+                {
+                    "type": "Module", 
+                    "nodeid": "test_primes.py"
+                }, 
+                {
+                    "type": "Module", 
+                    "nodeid": "test_tictactoe.py"
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_factorials.py::TestFactorial", 
+            "result": [
+                {
+                    "type": "TestCaseFunction", 
+                    "nodeid": "test_factorials.py::TestFactorial::test_error", 
+                    "lineno": 23
+                }, 
+                {
+                    "type": "TestCaseFunction", 
+                    "nodeid": "test_factorials.py::TestFactorial::test_fact", 
+                    "lineno": 13
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_factorials.py", 
+            "result": [
+                {
+                    "type": "UnitTestCase", 
+                    "nodeid": "test_factorials.py::TestFactorial"
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_primes.py::PrimesTestCase", 
+            "result": [
+                {
+                    "type": "TestCaseFunction", 
+                    "nodeid": "test_primes.py::PrimesTestCase::test_is_five_prime", 
+                    "lineno": 12
+                }, 
+                {
+                    "type": "TestCaseFunction", 
+                    "nodeid": "test_primes.py::PrimesTestCase::test_is_four_non_prime", 
+                    "lineno": 17
+                }, 
+                {
+                    "type": "TestCaseFunction", 
+                    "nodeid": "test_primes.py::PrimesTestCase::test_is_zero_not_prime", 
+                    "lineno": 22
+                }, 
+                {
+                    "type": "TestCaseFunction", 
+                    "nodeid": "test_primes.py::PrimesTestCase::test_negative_number", 
+                    "lineno": 27
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_primes.py", 
+            "result": [
+                {
+                    "type": "UnitTestCase", 
+                    "nodeid": "test_primes.py::PrimesTestCase"
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestConsoleUI", 
+            "result": [
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestConsoleUI::test_game_over", 
+                    "lineno": 8
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestConsoleUI::test_error_message", 
+                    "lineno": 14
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestConsoleUI::test_render_position_when_position_is_empty", 
+                    "lineno": 20
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestConsoleUI::test_render_position_returns_symbol_when_position_is_not_empty", 
+                    "lineno": 27
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestConsoleUI", 
+            "result": [
+                {
+                    "type": "Instance", 
+                    "nodeid": "test_tictactoe.py::TestConsoleUI"
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestBoard", 
+            "result": [
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_set_position", 
+                    "lineno": 38
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_get_position", 
+                    "lineno": 44
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_position_is_empty", 
+                    "lineno": 51
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_position_is_not_empty", 
+                    "lineno": 56
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_three_in_a_row", 
+                    "lineno": 63
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_is_not_three_in_a_row", 
+                    "lineno": 72
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_game_is_over", 
+                    "lineno": 81
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_game_is_not_over", 
+                    "lineno": 90
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_is_full", 
+                    "lineno": 99
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestBoard::test_is_not_full", 
+                    "lineno": 114
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestBoard", 
+            "result": [
+                {
+                    "type": "Instance", 
+                    "nodeid": "test_tictactoe.py::TestBoard"
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestComputerPlayer", 
+            "result": [
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestComputerPlayer::test_choose_symbol_other_player_picks_x", 
+                    "lineno": 122
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestComputerPlayer::test_choose_symbol_other_player_picks_o", 
+                    "lineno": 129
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestComputerPlayer::test_get_symbol", 
+                    "lineno": 136
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestComputerPlayer::test_get_other_player_is_none", 
+                    "lineno": 143
+                }, 
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestComputerPlayer::test_get_other_player_when_position_not_empty", 
+                    "lineno": 148
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestComputerPlayer", 
+            "result": [
+                {
+                    "type": "Instance", 
+                    "nodeid": "test_tictactoe.py::TestComputerPlayer"
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestHumanPlayer", 
+            "result": [
+                {
+                    "type": "Function", 
+                    "nodeid": "test_tictactoe.py::TestHumanPlayer::test_get_symbol", 
+                    "lineno": 161
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py::TestHumanPlayer", 
+            "result": [
+                {
+                    "type": "Instance", 
+                    "nodeid": "test_tictactoe.py::TestHumanPlayer"
+                }
+            ]
+        }, 
+        {
+            "outcome": "passed", 
+            "nodeid": "test_tictactoe.py", 
+            "result": [
+                {
+                    "type": "Class", 
+                    "nodeid": "test_tictactoe.py::TestConsoleUI"
+                }, 
+                {
+                    "type": "Class", 
+                    "nodeid": "test_tictactoe.py::TestBoard"
+                }, 
+                {
+                    "type": "Class", 
+                    "nodeid": "test_tictactoe.py::TestComputerPlayer"
+                }, 
+                {
+                    "type": "Class", 
+                    "nodeid": "test_tictactoe.py::TestHumanPlayer"
+                }
+            ]
+        }
+    ], 
+    "created": 1561385003.651, 
+    "duration": 0.19000005722045898, 
+    "exitcode": 0, 
+    "root": "D:\\python-ci", 
+    "summary": {
+        "total": 26, 
+        "passed": 26
+    }
+}

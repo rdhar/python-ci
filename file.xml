@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<root>
+	<key name="test_case1: time progressive">
+		<item>
+			<expected>970</expected>
+			<actual>991</actual>
+			<name>concurrency symbolic assertion0</name>
+			<passed>False</passed>
+		</item>
+		<item>
+			<expected>936</expected>
+			<actual>807</actual>
+			<name>paths warp assertion1</name>
+			<passed>False</passed>
+		</item>
+		<item>
+			<expected>389</expected>
+			<actual>400</actual>
+			<name>matrices function assertion2</name>
+			<passed>False</passed>
+		</item>
+	</key>
+	<num_passed>1024</num_passed>
+	<key name="test_case0: rotational iterative">
+		<item>
+			<expected>138</expected>
+			<actual>420</actual>
+			<name>splicer swing buffer assertion0</name>
+			<passed>False</passed>
+		</item>
+		<item>
+			<expected>72</expected>
+			<actual>893</actual>
+			<name>randomification concurrency assertion1</name>
+			<passed>False</passed>
+		</item>
+		<item>
+			<expected>189</expected>
+			<actual>293</actual>
+			<name>FPU randomification assertion2</name>
+			<passed>False</passed>
+		</item>
+	</key>
+	<num_failed>20</num_failed>
+	<test_name>tracer_operating</test_name>
+</root>
+
