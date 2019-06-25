@@ -3,5 +3,8 @@
   "python.pythonPath": "D:\\Python27\\python.exe",
   "python.linting.pylintEnabled": false,
   "python.linting.pep8Enabled": true,
-  "python.linting.enabled": true
+  "python.linting.enabled": true,
+  "cSpell.ignoreWords": [
+    "dicttoxml"
+  ]
 }
