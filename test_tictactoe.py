@@ -4,35 +4,35 @@ from tictactoe import ConsoleUI
 from tictactoe import ComputerPlayer
 
 
-class TestConsoleUI():
+# class TestConsoleUI():
 
-    def test_game_over(self):
-        board = Board()
-        ui = ConsoleUI(board)
+#     def test_game_over(self):
+#         board = Board()
+#         ui = ConsoleUI(board)
 
-        assert ui.game_over() == "Game over"
+#         assert ui.game_over() == "Game over"
 
-    def test_error_message(self):
-        board = Board()
-        ui = ConsoleUI(board)
+#     def test_error_message(self):
+#         board = Board()
+#         ui = ConsoleUI(board)
 
-        assert ui.error_message("There is an error") == "There is an error"
+#         assert ui.error_message("There is an error") == "There is an error"
 
-    def test_render_position_when_position_is_empty(self):
-        board = Board()
-        ui = ConsoleUI(board)
+#     def test_render_position_when_position_is_empty(self):
+#         board = Board()
+#         ui = ConsoleUI(board)
 
-        # The cells are numbered 1-9 so array index 4 equates to cell 5
-        assert ui.render_position(4) == "5"
+#         # The cells are numbered 1-9 so array index 4 equates to cell 5
+#         assert ui.render_position(4) == "5"
 
-    def test_render_position_returns_symbol_when_position_is_not_empty(self):
-        board = Board()
-        ui = ConsoleUI(board)
-        player = ComputerPlayer(board)
-        player.symbol = 'X'
-        board.set_position(4, player)
+#     def test_render_position_returns_symbol_when_position_is_not_empty(self):
+#         board = Board()
+#         ui = ConsoleUI(board)
+#         player = ComputerPlayer(board)
+#         player.symbol = 'X'
+#         board.set_position(4, player)
 
-        assert ui.render_position(4) == 'X'
+#         assert ui.render_position(4) == 'X'
 
 
 class TestBoard():
