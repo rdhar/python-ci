@@ -1,0 +1,631 @@
+{
+    "environment": {
+        "Python": "2.7.5",
+        "Platform": "Windows-7-6.1.7601-SP1",
+        "Packages": {
+            "py": "1.8.0",
+            "pytest": "4.6.3",
+            "pluggy": "0.12.0"
+        },
+        "Plugins": {
+            "json-report": "1.0.4",
+            "json": "0.4.0",
+            "metadata": "1.8.0"
+        }
+    },
+    "tests": [
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.002000093460083008,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_checkFail",
+            "call": {
+                "duration": 0.0009999275207519531,
+                "longrepr": "self = <test_NandC.TestNaughtsAndCrosses testMethod=test_checkFail>\n\n    def test_checkFail(self):\n>       self.assertTrue(False, \"This test is supposed to fail\")\nE       AssertionError: This test is supposed to fail\n\ntest_NandC.py:114: AssertionError",
+                "outcome": "failed",
+                "crash": {
+                    "path": "D:\\workingRepo\\masterRepo\\test_NandC.py",
+                    "message": "AssertionError: This test is supposed to fail",
+                    "lineno": 114
+                },
+                "traceback": [
+                    {
+                        "path": "test_NandC.py",
+                        "message": "AssertionError",
+                        "lineno": 114
+                    }
+                ]
+            },
+            "lineno": 112,
+            "keywords": [
+                "test_checkFail",
+                "masterRepo",
+                "test_NandC.py",
+                "TestNaughtsAndCrosses"
+            ],
+            "outcome": "failed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_correctInitialization",
+            "call": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "lineno": 14,
+            "keywords": [
+                "test_correctInitialization",
+                "masterRepo",
+                "test_NandC.py",
+                "TestNaughtsAndCrosses"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_isupper",
+            "call": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "lineno": 92,
+            "keywords": [
+                "masterRepo",
+                "test_isupper",
+                "TestNaughtsAndCrosses",
+                "test_NandC.py"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_split",
+            "call": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "lineno": 104,
+            "keywords": [
+                "masterRepo",
+                "test_NandC.py",
+                "TestNaughtsAndCrosses",
+                "test_split"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_upper",
+            "call": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "lineno": 10,
+            "keywords": [
+                "test_upper",
+                "masterRepo",
+                "test_NandC.py",
+                "TestNaughtsAndCrosses"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_winCheckCrosses",
+            "call": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed",
+                "stdout": "crosses Win!\ncrosses Win!\ncrosses Win!\ncrosses Win!\ncrosses Win!\ncrosses Win!\ncrosses Win!\ncrosses Win!\n"
+            },
+            "lineno": 26,
+            "keywords": [
+                "masterRepo",
+                "test_NandC.py",
+                "TestNaughtsAndCrosses",
+                "test_winCheckCrosses"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0019998550415039062,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_winCheckNaughts",
+            "call": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed",
+                "stdout": "naughts Win!\nnaughts Win!\nnaughts Win!\nnaughts Win!\nnaughts Win!\nnaughts Win!\nnaughts Win!\nnaughts Win!\n"
+            },
+            "lineno": 59,
+            "keywords": [
+                "test_winCheckNaughts",
+                "masterRepo",
+                "test_NandC.py",
+                "TestNaughtsAndCrosses"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestStringMethods::test_checkFail",
+            "call": {
+                "duration": 0.0,
+                "longrepr": "self = <test_NandC.TestStringMethods testMethod=test_checkFail>\n\n    def test_checkFail(self):\n>       self.assertTrue(False, \"This test is supposed to fail\")\nE       AssertionError: This test is supposed to fail\n\ntest_NandC.py:142: AssertionError",
+                "outcome": "failed",
+                "crash": {
+                    "path": "D:\\workingRepo\\masterRepo\\test_NandC.py",
+                    "message": "AssertionError: This test is supposed to fail",
+                    "lineno": 142
+                },
+                "traceback": [
+                    {
+                        "path": "test_NandC.py",
+                        "message": "AssertionError",
+                        "lineno": 142
+                    }
+                ]
+            },
+            "lineno": 140,
+            "keywords": [
+                "TestStringMethods",
+                "test_checkFail",
+                "masterRepo",
+                "test_NandC.py"
+            ],
+            "outcome": "failed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestStringMethods::test_isupper",
+            "call": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "lineno": 120,
+            "keywords": [
+                "TestStringMethods",
+                "masterRepo",
+                "test_isupper",
+                "test_NandC.py"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "nodeid": "test_NandC.py::TestStringMethods::test_split",
+            "call": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "lineno": 132,
+            "keywords": [
+                "TestStringMethods",
+                "masterRepo",
+                "test_NandC.py",
+                "test_split"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "nodeid": "test_factorials.py::TestFactorial::test_error",
+            "call": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "lineno": 17,
+            "keywords": [
+                "TestFactorial",
+                "test_factorials.py",
+                "masterRepo",
+                "test_error"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "nodeid": "test_factorials.py::TestFactorial::test_fact",
+            "call": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "lineno": 8,
+            "keywords": [
+                "test_fact",
+                "TestFactorial",
+                "masterRepo",
+                "test_factorials.py"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "nodeid": "test_primes.py::PrimesTestCase::test_is_five_prime",
+            "call": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "lineno": 7,
+            "keywords": [
+                "test_is_five_prime",
+                "PrimesTestCase",
+                "test_primes.py",
+                "masterRepo"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "nodeid": "test_primes.py::PrimesTestCase::test_is_four_non_prime",
+            "call": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "lineno": 11,
+            "keywords": [
+                "test_is_four_non_prime",
+                "PrimesTestCase",
+                "test_primes.py",
+                "masterRepo"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "nodeid": "test_primes.py::PrimesTestCase::test_is_zero_not_prime",
+            "call": {
+                "duration": 0.0009999275207519531,
+                "outcome": "passed"
+            },
+            "lineno": 15,
+            "keywords": [
+                "test_is_zero_not_prime",
+                "test_primes.py",
+                "PrimesTestCase",
+                "masterRepo"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "nodeid": "test_primes.py::PrimesTestCase::test_negative_number",
+            "call": {
+                "duration": 0.0,
+                "outcome": "passed"
+            },
+            "lineno": 19,
+            "keywords": [
+                "test_primes.py",
+                "test_negative_number",
+                "masterRepo",
+                "PrimesTestCase"
+            ],
+            "outcome": "passed"
+        },
+        {
+            "teardown": {
+                "duration": 0.0029997825622558594,
+                "outcome": "passed"
+            },
+            "setup": {
+                "duration": 0.0010001659393310547,
+                "outcome": "passed"
+            },
+            "nodeid": "test_primes.py::PrimesTestCase::test_should_fail",
+            "call": {
+                "duration": 0.0009999275207519531,
+                "longrepr": "self = <test_primes.PrimesTestCase testMethod=test_should_fail>\n\n    def test_should_fail(self):\n>       self.assertFalse(True)\nE       AssertionError: True is not false\n\ntest_primes.py:26: AssertionError",
+                "outcome": "failed",
+                "crash": {
+                    "path": "D:\\workingRepo\\masterRepo\\test_primes.py",
+                    "message": "AssertionError: True is not false",
+                    "lineno": 26
+                },
+                "traceback": [
+                    {
+                        "path": "test_primes.py",
+                        "message": "AssertionError",
+                        "lineno": 26
+                    }
+                ]
+            },
+            "lineno": 24,
+            "keywords": [
+                "test_primes.py",
+                "PrimesTestCase",
+                "masterRepo",
+                "test_should_fail"
+            ],
+            "outcome": "failed"
+        }
+    ],
+    "collectors": [
+        {
+            "outcome": "passed",
+            "nodeid": "",
+            "result": [
+                {
+                    "type": "DoctestTextfile",
+                    "nodeid": "Test.txt"
+                },
+                {
+                    "type": "Module",
+                    "nodeid": "test_NandC.py"
+                },
+                {
+                    "type": "Module",
+                    "nodeid": "test_factorials.py"
+                },
+                {
+                    "type": "Module",
+                    "nodeid": "test_primes.py"
+                }
+            ]
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "Test.txt",
+            "result": []
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "test_NandC.py::TestNaughtsAndCrosses",
+            "result": [
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_checkFail",
+                    "lineno": 112
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_correctInitialization",
+                    "lineno": 14
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_isupper",
+                    "lineno": 92
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_split",
+                    "lineno": 104
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_upper",
+                    "lineno": 10
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_winCheckCrosses",
+                    "lineno": 26
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses::test_winCheckNaughts",
+                    "lineno": 59
+                }
+            ]
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "test_NandC.py::TestStringMethods",
+            "result": [
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestStringMethods::test_checkFail",
+                    "lineno": 140
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestStringMethods::test_isupper",
+                    "lineno": 120
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_NandC.py::TestStringMethods::test_split",
+                    "lineno": 132
+                }
+            ]
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "test_NandC.py",
+            "result": [
+                {
+                    "type": "UnitTestCase",
+                    "nodeid": "test_NandC.py::TestNaughtsAndCrosses"
+                },
+                {
+                    "type": "UnitTestCase",
+                    "nodeid": "test_NandC.py::TestStringMethods"
+                }
+            ]
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "test_factorials.py::TestFactorial",
+            "result": [
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_factorials.py::TestFactorial::test_error",
+                    "lineno": 17
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_factorials.py::TestFactorial::test_fact",
+                    "lineno": 8
+                }
+            ]
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "test_factorials.py",
+            "result": [
+                {
+                    "type": "UnitTestCase",
+                    "nodeid": "test_factorials.py::TestFactorial"
+                }
+            ]
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "test_primes.py::PrimesTestCase",
+            "result": [
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_primes.py::PrimesTestCase::test_is_five_prime",
+                    "lineno": 7
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_primes.py::PrimesTestCase::test_is_four_non_prime",
+                    "lineno": 11
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_primes.py::PrimesTestCase::test_is_zero_not_prime",
+                    "lineno": 15
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_primes.py::PrimesTestCase::test_negative_number",
+                    "lineno": 19
+                },
+                {
+                    "type": "TestCaseFunction",
+                    "nodeid": "test_primes.py::PrimesTestCase::test_should_fail",
+                    "lineno": 24
+                }
+            ]
+        },
+        {
+            "outcome": "passed",
+            "nodeid": "test_primes.py",
+            "result": [
+                {
+                    "type": "UnitTestCase",
+                    "nodeid": "test_primes.py::PrimesTestCase"
+                }
+            ]
+        }
+    ],
+    "created": 1561470726.145,
+    "duration": 0.1919999122619629,
+    "exitcode": 1,
+    "root": "D:\\workingRepo\\masterRepo",
+    "summary": {
+        "failed": 3,
+        "total": 17,
+        "passed": 14
+    }
+}
