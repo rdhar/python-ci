@@ -21,12 +21,12 @@ pylint_runner --rcfile=./.pylintrc > pylint.log || exit 0
 
 ### Convert from JSON to XML from command line
 ```sh
-python convertJsonToXml.py < filename.json > filename.xml
+python convert_json_to_xml.py < filename.json > filename.xml
 ```
 
 ### Convert from XML to JSON then from JSON back to XML
 ```sh
-xml2json -d gdata results.xml > converted_results.json && convertJsonToXml.py < converted_results.json > converted_results.xml
+xml2json -d gdata results.xml > converted_results.json && convert_json_to_xml.py < converted_results.json > converted_results.xml
 ```
 
 ### HTTP Post URL from Jenkin's Git Plugin

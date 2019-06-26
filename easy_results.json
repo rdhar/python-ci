@@ -1,0 +1,35 @@
+{
+    "test_suite": {
+        "num_failed": 20,
+        "num_passed": 1024,
+        "test_name": "tracer_operating",
+        "test_case0: rotational iterative": [
+            {
+                "actual": 420,
+                "expected": 138,
+                "name": "buffer assertion0",
+                "passed": false
+            },
+            {
+                "actual": 893,
+                "expected": 72,
+                "name": "concurrency assertion1",
+                "passed": false
+            }
+        ],
+        "test_case1: time progressive": [
+            {
+                "actual": 991,
+                "expected": 970,
+                "name": "symbolic assertion0",
+                "passed": false
+            },
+            {
+                "actual": 807,
+                "expected": 936,
+                "name": "warp assertion1",
+                "passed": false
+            }
+        ]
+    }
+}
