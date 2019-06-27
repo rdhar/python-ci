@@ -1,0 +1,116 @@
+{
+	"test" : "Test Build : PCUnderTemperatureCheck Unit Tests",
+
+	"test_case_1" : {
+		"number" : 1,
+		"name" : "PCUnderTemperatureCheck Test: changes present",
+		"test_1" : {
+			"outcome" : "PASSED",
+			"number" : 1,
+			"expected" : 23,
+			"actual" : 32,
+			"description" : "Test 1.1:Some sort of interesting text here"
+		},
+		"test_2" : {
+			"outcome" : "PASSED",
+			"number" : 2,
+			"expected" : 4,
+			"actual" : 4
+			"description" : "Test 1.2:Some sort of interesting text here "
+		},
+		"test_3" : {
+			"outcome" : "PASSED",
+			"number" : 3,
+			"expected" : 9,
+			"actual" : 9,
+			"description" : "Test 1.3:Some sort of interesting text here' "
+		},
+		"test_4" : {
+			"outcome" : "FAILED",
+			"number" : 4,
+			"expected" : 7,
+			"actual" : 7,
+			"description" : "Test 1.4:Some sort of interesting text here"
+		},
+		"test_5" : {
+			"outcome" : "PASSED",
+			"number" : 5,
+			"expected" : 6,
+			"actual" : 6,
+			"description" : "Test 1.5:Some sort of interesting text here "
+		},
+		"test_6" : {
+			"outcome" : "PASSED",
+			"number" : 6,
+			"expected" : 55,
+			"actual" : 55,
+			"description" : "Test 1.6:Some sort of interesting text here"
+		},
+		"test_7" : {
+			"outcome" : "PASSED",
+			"number" : 7,
+			"expected" : 32,
+			"actual" : 32,
+			"description" : "Test 1.7:Some sort of interesting text here "
+		}
+	},
+	"test_case_2" : {
+		"number" : 2,
+		"name" : "PCUnderTemperatureCheck Test: changes present",
+		"test_1" : {
+			"outcome" : "PASSED",
+			"number" : 1,
+			"expected" : 4,
+			"actual" : 4,
+			"description" : "Test 2.1:Some sort of interesting text here "
+		},
+		"test_2" : {
+			"outcome" : "PASSED",
+			"number" : 2,
+			"expected" : 6,
+			"actual" : 6,
+			"description" : "Test 2.2:Some sort of interesting text here"
+		},
+		"test_3" : {
+			"outcome" : "PASSED",
+			"number" : 3,
+			"expected" : 8,
+			"actual" : 8,
+			"description" : "Test 2.3:Some sort of interesting text here"
+		},
+		"test_4" : {
+			"outcome" : "PASSED",
+			"number" : 4,
+			"expected" : 35,
+			"actual" : 35,
+			"description" : "Test 2.4:Some sort of interesting text here "
+		},
+		"test_5" : {
+			"outcome" : "PASSED",
+			"number" : 5,
+			"expected" : 37,
+			"actual" : 37,
+			"description" : "Test 2.5:Some sort of interesting text here "
+		},
+		"test_6" : {
+			"outcome" : "PASSED",
+			"number" : 6,
+			"expected" : 66,
+			"actual" : 66,
+			"description" : "Test 2.6:Some sort of interesting text here"
+		},
+		"test_7" : {
+			"outcome" : "PASSED",
+			"number" : 7,
+			"expected" : 88,
+			"actual" : 88,
+			"description" : "Test 2.7:Some sort of interesting text here"
+		}
+	},
+	"summary" : {
+		"check_count" : 14,
+		"pass_count" : 14,
+		"fail_count" : 1,
+		"outcome" : "FAILED"
+	}
+}

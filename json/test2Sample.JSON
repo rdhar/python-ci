@@ -1,0 +1,62 @@
+{
+	"test" : "Test Build : PCUnderTemperatureCheck",
+
+	"test_case_1" : {
+		"number" : 1,
+		"name" : "PCUnderTemperatureCheck - CHECK ALL GOOD",
+		"test_1" : {
+			"outcome" : "PASSED",
+			"number" : 1,
+			"expected" : "1",
+			"actual" : "1",
+			"difference" : 1,
+			"description" : "Test 1.1:navIn1 = "
+		},
+		"test_2" : {
+			"outcome" : "PASSED",
+			"number" : 2,
+			"expected" : "0.125",
+			"actual" : "0.125",
+			"difference" : 0,
+			"description" : "Test 1.2:navIn2 = "
+		},
+		"test_3" : {
+			"outcome" : "PASSED",
+			"number" : 3,
+			"expected" : "2e-007",
+			"actual" : "2e-007",
+			"difference" : 2.6246407e-032,
+			"description" : "Test 1.3:navIn3 = "
+		},
+		"test_4" : {
+			"outcome" : "PASSED",
+			"number" : 4,
+			"expected" : "1.5",
+			"actual" : "1.5",
+			"difference" : 0,
+			"description" : "Test 1.4:navIn4 = "
+		},
+		"test_5" : {
+			"outcome" : "PASSED",
+			"number" : 5,
+			"expected" : "2.217458",
+			"actual" : "2.217458",
+			"difference" : 2.645465e-002,
+			"description" : "Test 1.5:navIn5 = "
+		},
+		"test_6" : {
+			"outcome" : "PASSED",
+			"number" : 6,
+			"expected" : "12.44"
+			"actual" : "12.44",
+			"difference" : 1.21157e-002,
+			"description" : "Test 1.6:navIn6 = "
+		}
+	},
+	"summary" : {
+		"check_count" : 6,
+		"pass_count" : 6,
+		"fail_count" : 0,
+		"outcome" : "PASSED"
+	}
+}
