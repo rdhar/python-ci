@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testsuite errors="0" failures="0" name="pytest" skipped="0" tests="26" time="0.362">
+<testsuite errors="0" failures="0" name="pytest" skipped="0" tests="26" time="0.269">
     <testcase classname="test_factorials.TestFactorial" file="test_factorials.py" line="23" name="test_error" time="0.004"></testcase>
     <testcase classname="test_factorials.TestFactorial" file="test_factorials.py" line="13" name="test_fact" time="0.003"></testcase>
-    <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="12" name="test_is_five_prime" time="0.006"></testcase>
-    <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="17" name="test_is_four_non_prime" time="0.001"></testcase>
-    <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="22" name="test_is_zero_not_prime" time="0.002"></testcase>
+    <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="12" name="test_is_five_prime" time="0.003"></testcase>
+    <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="17" name="test_is_four_non_prime" time="0.000"></testcase>
+    <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="22" name="test_is_zero_not_prime" time="0.003"></testcase>
     <testcase classname="test_primes.PrimesTestCase" file="test_primes.py" line="27" name="test_negative_number" time="0.003"></testcase>
-    <testcase classname="test_tictactoe.TestConsoleUI" file="test_tictactoe.py" line="8" name="test_game_over" time="0.003">
+    <testcase classname="test_tictactoe.TestConsoleUI" file="test_tictactoe.py" line="8" name="test_game_over" time="0.001">
         <system-out>Game over
-</system-out>
+        </system-out>
     </testcase>
     <testcase classname="test_tictactoe.TestConsoleUI" file="test_tictactoe.py" line="14" name="test_error_message" time="0.003">
         <system-out>#x1B[31mERROR: There is an error#x1B[0m
-</system-out>
+        </system-out>
     </testcase>
-    <testcase classname="test_tictactoe.TestConsoleUI" file="test_tictactoe.py" line="20" name="test_render_position_when_position_is_empty" time="0.000"></testcase>
+    <testcase classname="test_tictactoe.TestConsoleUI" file="test_tictactoe.py" line="20" name="test_render_position_when_position_is_empty" time="0.001"></testcase>
     <testcase classname="test_tictactoe.TestConsoleUI" file="test_tictactoe.py" line="27" name="test_render_position_returns_symbol_when_position_is_not_empty" time="0.003"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="38" name="test_set_position" time="0.000"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="44" name="test_get_position" time="0.002"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="38" name="test_set_position" time="0.001"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="44" name="test_get_position" time="0.004"></testcase>
     <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="51" name="test_position_is_empty" time="0.003"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="56" name="test_position_is_not_empty" time="0.002"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="63" name="test_three_in_a_row" time="0.002"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="72" name="test_is_not_three_in_a_row" time="0.003"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="56" name="test_position_is_not_empty" time="0.003"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="63" name="test_three_in_a_row" time="0.003"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="72" name="test_is_not_three_in_a_row" time="0.002"></testcase>
     <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="81" name="test_game_is_over" time="0.003"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="90" name="test_game_is_not_over" time="0.003"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="99" name="test_is_full" time="0.001"></testcase>
-    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="114" name="test_is_not_full" time="0.002"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="90" name="test_game_is_not_over" time="0.002"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="99" name="test_is_full" time="0.003"></testcase>
+    <testcase classname="test_tictactoe.TestBoard" file="test_tictactoe.py" line="114" name="test_is_not_full" time="0.000"></testcase>
     <testcase classname="test_tictactoe.TestComputerPlayer" file="test_tictactoe.py" line="122" name="test_choose_symbol_other_player_picks_x" time="0.003"></testcase>
-    <testcase classname="test_tictactoe.TestComputerPlayer" file="test_tictactoe.py" line="129" name="test_choose_symbol_other_player_picks_o" time="0.002"></testcase>
+    <testcase classname="test_tictactoe.TestComputerPlayer" file="test_tictactoe.py" line="129" name="test_choose_symbol_other_player_picks_o" time="0.003"></testcase>
     <testcase classname="test_tictactoe.TestComputerPlayer" file="test_tictactoe.py" line="136" name="test_get_symbol" time="0.001"></testcase>
     <testcase classname="test_tictactoe.TestComputerPlayer" file="test_tictactoe.py" line="143" name="test_get_other_player_is_none" time="0.003"></testcase>
-    <testcase classname="test_tictactoe.TestComputerPlayer" file="test_tictactoe.py" line="148" name="test_get_other_player_when_position_not_empty" time="0.002"></testcase>
+    <testcase classname="test_tictactoe.TestComputerPlayer" file="test_tictactoe.py" line="148" name="test_get_other_player_when_position_not_empty" time="0.000"></testcase>
     <testcase classname="test_tictactoe.TestHumanPlayer" file="test_tictactoe.py" line="161" name="test_get_symbol" time="0.002"></testcase>
 </testsuite>
