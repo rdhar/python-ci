@@ -1,41 +1,42 @@
 <?xml version='1.0' encoding='utf-8'?>
 <testsuite errors="0" failures="10" name="Test Build : Halcyon Ascent Test" skipped="0" tests="18" time="0.499">
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="135" name="Test Build : Halcyon Ascent Test test_1" time="0.003"></testcase>
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="848" name="Test Build : Halcyon Ascent Test test_2" time="0.003"></testcase>
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="764" name="Test Build : Halcyon Ascent Test test_3" time="0.003"></testcase>
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="135" name="Test Build : Halcyon Ascent Test test_1" time="0.003" />
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="848" name="Test Build : Halcyon Ascent Test test_2" time="0.003" />
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="764" name="Test Build : Halcyon Ascent Test test_3" time="0.003" />
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="256" name="Test Build : Halcyon Ascent Test test_4" time="0.003">
-        <failure description="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien" message="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien"></failure>
+        <failure description="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien" message="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien" />
     </testcase>
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="496" name="Test Build : Halcyon Ascent Test test_5" time="0.003">
-        <failure description="Sed vel tincidunt turpis, vitae posuere orci" message="Sed vel tincidunt turpis, vitae posuere orci"></failure>
+        <failure description="Sed vel tincidunt turpis, vitae posuere orci" message="Sed vel tincidunt turpis, vitae posuere orci" />
     </testcase>
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="450" name="Test Build : 2938 Renegade Test test_1" time="0.003">
-        <failure description="Lorem ipsum dolor sit amet, consectetur adipiscing elit." message="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></failure>
+        <failure description="Lorem ipsum dolor sit amet, consectetur adipiscing elit." message="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
     </testcase>
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="652" name="Test Build : 2938 Renegade Test test_2" time="0.003"></testcase>
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="789" name="Test Build : 2938 Renegade Test test_3" time="0.003"></testcase>
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="652" name="Test Build : 2938 Renegade Test test_2" time="0.003" />
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="789" name="Test Build : 2938 Renegade Test test_3" time="0.003" />
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="94" name="Test Build : 2938 Renegade Test test_4" time="0.003">
-        <failure description="Interdum et malesuada fames ac ante ipsum primis in faucibus." message="Interdum et malesuada fames ac ante ipsum primis in faucibus."></failure>
+        <failure description="Interdum et malesuada fames ac ante ipsum primis in faucibus." message="Interdum et malesuada fames ac ante ipsum primis in faucibus." />
     </testcase>
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="29" name="Test Build : 2938 Renegade Test test_5" time="0.003">
-        <failure description="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien" message="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien"></failure>
+        <failure description="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien" message="Duis malesuada, augue a convallis hendrerit, velit augue posuere sapien" />
     </testcase>
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="836" name="Test Build : 2938 Renegade Test test_6" time="0.003">
-        <failure description="hasellus iaculis velit magna, eget vulputate turpis lobortis ac" message="hasellus iaculis velit magna, eget vulputate turpis lobortis ac"></failure>
+        <failure description="hasellus iaculis velit magna, eget vulputate turpis lobortis ac" message="hasellus iaculis velit magna, eget vulputate turpis lobortis ac" />
     </testcase>
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="433" name="Test Build : 2938 Renegade Test test_7" time="0.003">
-        <failure description="Ut non enim nec lacus maximus ornare" message="Ut non enim nec lacus maximus ornare"></failure>
+        <failure description="Ut non enim nec lacus maximus ornare" message="Ut non enim nec lacus maximus ornare" />
     </testcase>
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="763" name="Test Build : Binary Polymorphism Test test_1" time="0.003"></testcase>
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="763" name="Test Build : Binary Polymorphism Test test_1" time="0.003" />
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="3" name="Test Build : Binary Polymorphism Test test_2" time="0.003">
-        <failure description="Morbi eget sapien at metus tempor viverra at non erat" message="Morbi eget sapien at metus tempor viverra at non erat"></failure>
+        <failure description="Morbi eget sapien at metus tempor viverra at non erat" message="Morbi eget sapien at metus tempor viverra at non erat" />
     </testcase>
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="446" name="Test Build : Binary Polymorphism Test test_3" time="0.003"></testcase>
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="446" name="Test Build : Binary Polymorphism Test test_3" time="0.003" />
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="722" name="Test Build : Binary Polymorphism Test test_4" time="0.003">
-        <failure description="Mauris lorem odio, volutpat id bibendum et, rhoncus sit amet lorem" message="Mauris lorem odio, volutpat id bibendum et, rhoncus sit amet lorem"></failure>
+        <failure description="Mauris lorem odio, volutpat id bibendum et, rhoncus sit amet lorem" message="Mauris lorem odio, volutpat id bibendum et, rhoncus sit amet lorem" />
     </testcase>
     <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="229" name="Test Build : Binary Polymorphism Test test_5" time="0.003">
-        <failure description="Interdum et malesuada fames ac ante ipsum primis in faucibus." message="Interdum et malesuada fames ac ante ipsum primis in faucibus."></failure>
+        <failure description="Interdum et malesuada fames ac ante ipsum primis in faucibus." message="Interdum et malesuada fames ac ante ipsum primis in faucibus." />
     </testcase>
-    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="946" name="Test Build : Binary Polymorphism Test test_6" time="0.003"></testcase>
+    <testcase classname="Test Build : Halcyon Ascent Test" file="bleh" line="946" name="Test Build : Binary Polymorphism Test test_6" time="0.003" />
+    <testcase />
 </testsuite>
