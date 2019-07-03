@@ -6,5 +6,8 @@
   "python.linting.enabled": true,
   "cSpell.ignoreWords": [
     "dicttoxml"
+  ],
+  "cSpell.words": [
+    "shutil"
   ]
 }
