@@ -10,7 +10,7 @@ fixtures==3.0.0
 funcsigs==1.0.2
 futures==3.2.0
 linecache2==1.0.0
-lxml==4.2.5
+lxml==4.6.2
 mock==2.0.0
 more-itertools==4.1.0
 networkx==1.11
